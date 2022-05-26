@@ -48,6 +48,7 @@ En las siguientes dos subsecciones se encuentran los modelos de datos que define
 Teniendo en cuenta en plano inicial, el diseños logico y conceptual, luego de añadirle la normalización, se obtuvo el siguiente diseño:
 
 En el cual se evidencian 18 tablas con sus llaves primarias y llaves foraneas, donde dos son las principales(jugador y club) que se derivan las demas(contrato jugador, director tecnico, estadio etc..) entre esas tablas estan estadisticas del jugador y estadisticas del club, que son las que se puede lograr un mayor analisis por sus atributostan representativos para los clubs de la liga colombiana de futbol. 
+![modelo](https://user-images.githubusercontent.com/72886478/170491576-44dc505a-c744-4d2b-bfc6-f05f71945b95.png)
 
 
 **Inserción Datos**
