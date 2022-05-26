@@ -1,0 +1,619 @@
+id_j;edad;altura;pie_habil;nacionalidad;nombre;valor_mercado;id_club;posicion
+1001;28;185;derecho;Colombia;Jefersson Martinez;300;101;Portero
+1002;39;184;derecho;Uruguay;Sebastian Viera;275;101;Portero
+1003;24;183;derecho;Colombia;Sebastian Araujo;150;101;Portero
+1004;20;16;derecho;Colombia;Jaime Acosta;280;101;Portero
+1005;24;185;derecho;Colombia;Homer Martinez;950;101;Defenza central
+1006;29;183;izquierdo;Colombia;Jorge Arias;800;101;Defenza central
+1007;32;187;izquierdo;Colombia;German Mera;800;101;Defenza central
+1008;28;187;derecho;Colombia;Dany Rosero;800;101;Defenza central
+1009;21;19;izquierdo;Colombia;Alfonso Simarra;150;101;Defenza central
+1010;25;18;izquierdo;Colombia;Gabriel Fuentes;990;101;Lateral izquierdo
+1011;30;179;izquierdo;Colombia;Edwin Velasco;600;101;Lateral izquierdo
+1012;27;172;derecho;Colombia;Walmer Pacheco;150;101;Lateral derecho
+1013;30;167;derecho;Colombia;Fabian Viafara;280;101;Lateral derecho
+1014;26;183;derecho;Colombia;Nilson Castrillon;950;101;Lateral derecho
+1015;29;178;derecho;Colombia;Daniel Giraldo;800;101;Pivote
+1016;30;181;izquierdo;Colombia;Didier Moreno;800;101;Pivote
+1017;26;178;derecho;Colombia;Enrique Serje;800;101;Pivote
+1018;21;175;derecho;Colombia;Fabian Angel;150;101;Mediocentro
+1019;31;168;derecho;Colombia;Yesus Cabrera;990;101;Mediocentro
+1020;23;179;derecho;Colombia;Carlos Esparragoza;600;101;Mediocentro
+1021;22;182;derecho;Colombia;Neider Sanjuan;700;101;Interior derecho
+1022;33;17;derecho;Argentina;Fabian Sambueza;600;101;Mediocentro ofensivo
+1023;31;17;derecho;Venezuela;Luis Gonzalez;100;101;Extremo izquierdo
+1024;32;178;izquierdo;Colombia;Fredy Hinestroza;200;101;Extremo izquierdo
+1025;26;183;izquierdo;Colombia;Omar Albornoz;900;101;Extremo izquierdo
+1026;33;175;izquierdo;Colombia;Jhon Fredy Pajoy;250;101;Extremo izquierdo
+1027;24;17;derecho;Colombia;Edwuin Cetre;300;101;Extremo derecho
+1028;29;183;derecho;Colombia;Miguel Borja;275;101;Delantero centro
+1029;34;182;izquierdo;Colombia;Fernando Uribe;150;101;Delantero centro
+1030;37;175;derecho;Colombia;Carmelo Valencia;280;101;Delantero centro
+1031;27;195;izquierdo;Colombia;Aldair Quintana;950;102;Portero
+1032;21;19;derecho;Colombia;Kevin Mier;800;102;Portero
+1033;19;187;derecho;Colombia;Miguel Marquines;800;102;Portero
+1034;29;19;derecho;Colombia;Felipe Aguilar;800;102;Defenza central
+1035;32;18;derecho;Argentina;Emanuel Olivera;150;102;Defenza central
+1036;21;192;derecho;Colombia;Cristian Castro;990;102;Defenza central
+1037;24;177;izquierdo;Colombia;alvaro Angulo;600;102;Lateral izquierdo
+1038;32;185;izquierdo;Colombia;Danovis Banguero;150;102;Lateral izquierdo
+1039;21;186;izquierdo;Colombia;Juan Cabal;280;102;Lateral izquierdo
+1040;19;187;izquierdo;Colombia;Jimer Fory;950;102;Lateral izquierdo
+1041;30;17;derecho;Colombia;Yerson Candelo;800;102;Lateral derecho
+1042;22;181;derecho;Colombia;Hayen Palacios;800;102;Lateral derecho
+1043;29;173;izquierdo;Colombia;Jhon Duque;800;102;Pivote
+1044;33;178;derecho;Colombia;Alexander Mejia;150;102;Pivote
+1045;29;187;derecho;Colombia;Baldomero Perlaza;990;102;Mediocentro
+1046;25;172;izquierdo;Colombia;Sebastian Gomez;600;102;Mediocentro
+1047;20;18;derecho;Colombia;Nelson Palacio;700;102;Mediocentro
+1048;25;173;derecho;Colombia;Daniel Mantilla;600;102;Interior izquierdo
+1049;26;17;izquierdo;Colombia;Jarlan Barrera;100;102;Mediocentro ofensivo
+1050;24;17;derecho;Colombia;Yeison Guzman;200;102;Mediocentro ofensivo
+1051;33;178;derecho;Colombia;Andres Andrade;900;102;Mediocentro ofensivo
+1052;35;192;izquierdo;Colombia;Giovanni Moreno;250;102;Mediocentro ofensivo
+1053;34;168;derecho;Colombia;Dorlan Pabon;200;102;Extremo derecho
+1054;34;183;derecho;Colombia;Jefferson Duque;120;102;Delantero centro
+1055;19;174;izquierdo;Colombia;Tomas angel;400;102;Delantero centro
+1056;23;179;derecho;Colombia;Ruyery Blanco;652;102;Delantero centro
+1057;29;195;derecho;Colombia;William Cuesta;822;103;Portero
+1058;34;196;derecho;Ecuador;Alexander Dominguez;480;103;Portero
+1059;17;193;derecho;Colombia;Alejandro Aguilar;300;103;Portero
+1060;28;185;derecho;Colombia;Sergio Mosquera;275;103;Defenza central
+1061;32;195;derecho;Colombia;Julian Quinones;150;103;Defenza central
+1062;25;187;derecho;Colombia;Anderson Angulo;280;103;Defenza central
+1063;29;185;derecho;Colombia;Jose Moya;950;103;Defenza central
+1064;27;186;izquierdo;Colombia;Eduar Caicedo;800;103;Defenza central
+1065;25;182;izquierdo;Colombia;Jeison Angulo;800;103;Lateral izquierdo
+1066;23;172;izquierdo;Colombia;Junior Hernandez;800;103;Lateral izquierdo
+1067;33;18;derecho;Colombia;Juan Angulo;150;103;Lateral derecho
+1068;26;178;derecho;Colombia;Jonathan Marulanda;990;103;Lateral derecho
+1069;21;177;derecho;Colombia;Leider Riascos;600;103;Lateral derecho
+1070;30;174;derecho;Colombia;Juan David Rios;150;103;Pivote
+1071;25;177;derecho;Colombia;Brayan Rovira;280;103;Pivote
+1072;29;181;derecho;Chile;Rodrigo Urena;950;103;Pivote
+1073;27;18;derecho;Colombia;Fabian Mosquera;800;103;Pivote
+1074;23;174;derecho;Colombia;Cristian Trujillo;800;103;Pivote
+1075;30;174;derecho;Colombia;Daniel Catano;800;103;Mediocentro ofensivo
+1076;28;175;derecho;Peru;Raziel Garcia;150;103;Mediocentro ofensivo
+1077;31;168;izquierdo;Venezuela;Yohandry Orozco;990;103;Mediocentro ofensivo
+1078;29;177;derecho;Colombia;Juan Pablo Nieto;600;103;Mediocentro ofensivo
+1079;30;175;derecho;Colombia;Andres Ibarguen;700;103;Extremo izquierdo
+1080;31;172;derecho;Colombia;anderson Plata;600;103;Extremo derecho
+1081;24;18;derecho;Colombia;Luis Miranda;100;103;Extremo derecho
+1082;27;178;derecho;Colombia;Jeison Lucumi;200;103;Extremo derecho
+1083;25;17;derecho;Colombia;alvaro Melendez;900;103;Extremo derecho
+1084;31;188;derecho;Colombia;Michael Rangel;250;103;Delantero centro
+1085;32;18;derecho;Colombia;Juan Fernando Caicedo;300;103;Delantero centro
+1086;31;181;derecho;Paraguay;Gustavo Ramirez;275;103;Delantero centro
+1087;27;196;derecho;Colombia;alvaro Montero;150;104;Portero
+1088;22;194;derecho;Colombia;Juan Moreno;280;104;Portero
+1089;20;191;derecho;Colombia;Camilo Andres Romero;950;104;Portero
+1090;25;188;derecho;Colombia;Andres Llinas;800;104;Defenza central
+1091;26;192;izquierdo;CostaRica;Juan Pablo Vargas;800;104;Defenza central
+1092;26;184;izquierdo;Colombia;Andres Murillo;800;104;Defenza central
+1093;27;192;derecho;Colombia;Jose Abad Cuenu;150;104;Defenza central
+1094;20;185;derecho;Colombia;Alex Moreno;990;104;Defenza central
+1095;25;174;izquierdo;Colombia;Omar Bertel;600;104;Lateral izquierdo
+1096;18;182;izquierdo;Colombia;Samuel Asprilla;150;104;Lateral izquierdo
+1097;26;183;derecho;Colombia;Andres Felipe Roman;280;104;Lateral derecho
+1098;33;173;derecho;Colombia;Elvis Perlaza;950;104;Lateral derecho
+1099;21;181;derecho;Colombia;Ricardo Rosales;800;104;Lateral derecho
+1100;21;176;derecho;Colombia;Dewar Victoria;800;104;Medio campo
+1101;23;178;derecho;Colombia;Stiven Vega;800;104;Pivote
+1102;29;186;derecho;Colombia;Larry Vasquez;150;104;Pivote
+1103;21;185;derecho;Colombia;Kliver Moreno;990;104;Pivote
+1104;25;185;derecho;Colombia;Juan Camilo Garcia;600;104;Pivote
+1105;29;182;derecho;Colombia;Juan Carlos Pereira;700;104;Mediocentro
+1106;20;171;izquierdo;Colombia;Daniel Ruiz Rivera;600;104;Interior izquierdo
+1107;25;173;derecho;Venezuela;Eduardo Sosa;100;104;Mediocentro ofensivo
+1108;35;175;derecho;Colombia;David Silva;200;104;Mediocentro ofensivo
+1109;18;176;derecho;Colombia;oscar Cortes;900;104;Mediocentro ofensivo
+1110;26;178;derecho;Venezuela;Richard Celis;250;104;Extremo izquierdo
+1111;21;172;derecho;Colombia;Edgar Guerra;200;104;Extremo izquierdo
+1112;25;173;derecho;Colombia;Jorge Rengifo;120;104;Extremo izquierdo
+1113;19;171;derecho;Colombia;Carlos Andres Gomez;400;104;Extremo derecho
+1114;19;173;izquierdo;Colombia;Yuber Quinones;652;104;Extremo derecho
+1115;26;18;derecho;Colombia;Diego Herazo;822;104;Delantero centro
+1116;24;187;derecho;Colombia;Ricardo Marquez;480;104;Delantero centro
+1117;22;189;izquierdo;Colombia;Jader Valencia;300;104;Delantero centro
+1118;23;18;derecho;Colombia;Diego Abadia;275;104;Delantero centro
+1119;18;188;derecho;Colombia;Juan Esteban Carvajal;150;104;Delantero centro
+1120;25;182;derecho;Venezuela;Joel Graterol;280;105;Portero
+1121;32;186;derecho;Colombia;Diego Novoa;950;105;Portero
+1122;24;187;derecho;Colombia;David Quintero;800;105;Portero
+1123;26;18;derecho;Colombia;Marlon Torres;800;105;Defenza central
+1124;32;186;derecho;Colombia;John Garcia;800;105;Defenza central
+1125;25;195;izquierdo;Colombia;Jorge Segura;150;105;Defenza central
+1126;20;18;derecho;Colombia;Brayan Medina;990;105;Defenza central
+1127;19;183;derecho;Colombia;Edson Acevedo;600;105;Defenza central
+1128;31;183;izquierdo;Colombia;Elvis Mosquera;150;105;Lateral izquierdo
+1129;23;18;izquierdo;Colombia;Brayan Vera;280;105;Lateral izquierdo
+1130;22;173;derecho;Colombia;Yaliston Martinez;950;105;Lateral izquierdo
+1131;26;171;derecho;Colombia;Cristian Arrieta;800;105;Lateral derecho
+1132;23;171;derecho;Colombia;Daniel Quinones;800;105;Lateral derecho
+1133;20;179;derecho;Colombia;Eber Moreno;800;105;Lateral derecho
+1134;19;168;derecho;Colombia;Juan Sebastian Osorio;150;105;Medio campo
+1135;33;175;derecho;Colombia;Luis Alejandro Paz;990;105;Pivote
+1136;26;173;derecho;Colombia;Didier Pino;600;105;Pivote
+1137;31;183;izquierdo;Colombia;Carlos Sierra;700;105;Mediocentro
+1138;23;183;derecho;Colombia;Juan Camilo Portilla;600;105;Mediocentro
+1139;26;185;derecho;Colombia;Larry Angulo;100;105;Mediocentro
+1140;21;181;derecho;Colombia;Gustavo Carvajal;200;105;Mediocentro
+1141;28;186;izquierdo;Colombia;Mauricio Gomez;900;105;Interior izquierdo
+1142;21;173;derecho;Colombia;Luis Sanchez;250;105;Mediocentro ofensivo
+1143;31;176;izquierdo;Colombia;Daniel Hernandez;300;105;Mediocentro ofensivo
+1144;21;175;derecho;Colombia;Cristian Gamboa;275;105;Mediocentro ofensivo
+1145;19;183;derecho;Colombia;Sergio Mosquera;150;105;Mediocentro ofensivo
+1146;19;173;derecho;Colombia;Joider Micolta;280;105;Extremo izquierdo
+1147;26;173;izquierdo;Colombia;Deinner Quinones;950;105;Extremo derecho
+1148;32;174;izquierdo;Spain;Iago Falque;800;105;Extremo derecho
+1149;24;178;derecho;Colombia;Esneyder Mena;800;105;Extremo derecho
+1150;27;175;izquierdo;Colombia;David Lemos;800;105;Delantero centro
+1151;36;185;derecho;Colombia;Adrian Ramos;150;105;Delantero centro
+1152;30;19;derecho;Argentina;Alejandro Quintana;990;105;Delantero centro
+1153;22;18;derecho;Colombia;Daniel Mosquera;600;105;Delantero centro
+1154;18;173;derecho;Colombia;Javier Mateo Ortiz;150;105;Delantero centro
+1155;30;186;derecho;Colombia;Andres Mosquera;280;106;Portero
+1156;26;187;derecho;Colombia;Luis Vasquez;950;106;Portero
+1157;22;185;derecho;Colombia;Weimar Asprilla;800;106;Portero
+1158;27;184;derecho;Colombia;Victor Moreno;800;106;Defenza central
+1159;36;188;izquierdo;Colombia;Andres Cadavid;800;106;Defenza central
+1160;21;19;derecho;Colombia;Didier Bueno;150;106;Defenza central
+1161;32;17;izquierdo;Colombia;German Gutierrez;990;106;Lateral izquierdo
+1162;24;17;izquierdo;Colombia;Yulian Gomez;600;106;Lateral izquierdo
+1163;32;178;derecho;Colombia;Juan Guillermo Arboleda;700;106;Lateral derecho
+1164;19;18;derecho;Colombia;Juan David Mosquera;600;106;Lateral derecho
+1165;28;177;izquierdo;Colombia;David Loaiza;100;106;Pivote
+1166;29;176;derecho;Argentina;Adrian Arregui;200;106;Pivote
+1167;27;184;derecho;Uruguay;Javier Mendez;900;106;Pivote
+1168;24;178;derecho;Colombia;Yesid Diaz;250;106;Pivote
+1169;24;18;derecho;Colombia;Jaen Pineda;200;106;Mediocentro
+1170;20;183;derecho;Colombia;Juan Carlos Diaz;120;106;Mediocentro
+1171;30;182;izquierdo;Colombia;Andres Ricaurte;400;106;Mediocentro ofensivo
+1172;20;172;derecho;Colombia;Juan Manuel Cuesta;652;106;Mediocentro ofensivo
+1173;35;177;derecho;Colombia;Sebastian Hernandez;822;106;Mediocentro ofensivo
+1174;28;177;derecho;Panama;Miguel Camargo;480;106;Mediocentro ofensivo
+1175;18;178;derecho;Colombia;Miguel Monsalve;300;106;Mediocentro ofensivo
+1176;23;173;derecho;Colombia;Bryan Castrillon;275;106;Extremo izquierdo
+1177;33;16;derecho;Colombia;Vladimir Hernandez;150;106;Extremo izquierdo
+1178;25;175;izquierdo;Colombia;Ever Valencia;280;106;Extremo izquierdo
+1179;31;178;derecho;Colombia;Felipe Pardo;950;106;Extremo derecho
+1180;25;179;derecho;Venezuela;Jose Hernandez Chavez;800;106;Extremo derecho
+1181;27;179;derecho;Colombia;Edwar Lopez;800;106;Extremo derecho
+1182;26;188;derecho;Colombia;Diber Cambindo;800;106;Delantero centro
+1183;23;177;derecho;Colombia;Steven Rodriguez;150;106;Delantero centro
+1184;32;18;derecho;Argentina;Luciano Pons;990;106;Delantero centro
+1185;27;188;derecho;Uruguay;Guillermo de Amores;600;107;Portero
+1186;24;185;derecho;Colombia;Humberto Acevedo;150;107;Portero
+1187;20;193;derecho;Colombia;Daniel Lasso;280;107;Portero
+1188;33;189;derecho;Argentina;Guillermo Burdisso;950;107;Defenza central
+1189;23;182;izquierdo;Colombia;Jorge Marsiglia;800;107;Defenza central
+1190;24;186;derecho;Colombia;Miguel Nazarit;800;107;Defenza central
+1191;21;187;derecho;Colombia;Kevin Moreno;800;107;Defenza central
+1192;20;185;derecho;Colombia;Jose Caldera;150;107;Defenza central
+1193;29;175;izquierdo;Colombia;Christian Mafla;990;107;Lateral izquierdo
+1194;19;16;izquierdo;Colombia;Juan Tello;600;107;Lateral izquierdo
+1195;20;176;izquierdo;Colombia;Brayan Montano;700;107;Lateral izquierdo
+1196;20;16;derecho;Colombia;Juan Franco;600;107;Lateral derecho
+1197;23;175;derecho;Colombia;Aldair Gutierrez;100;107;Lateral derecho
+1198;22;177;derecho;Colombia;Andres Balanta;200;107;Pivote
+1199;29;185;derecho;Colombia;Carlos Robles;900;107;Pivote
+1200;20;179;derecho;Colombia;Edgard Enrique Camargo;250;107;Pivote
+1201;28;177;derecho;Chile;Sebastian Leyton;300;107;Mediocentro
+1202;24;176;derecho;Colombia;Yimmi Congo;275;107;Mediocentro
+1203;19;178;derecho;Colombia;Gian Cabezas;150;107;Mediocentro
+1204;25;168;izquierdo;Colombia;Kevin Velasco;280;107;Interior izquierdo
+1205;31;172;derecho;Colombia;Michael Ortega;950;107;Mediocentro ofensivo
+1206;22;177;derecho;Colombia;Yeison Tolosa;800;107;Mediocentro ofensivo
+1207;19;178;derecho;Colombia;Daniel Luna;800;107;Mediocentro ofensivo
+1208;27;172;derecho;Colombia;Santiago Mosquera;800;107;Extremo izquierdo
+1209;27;176;derecho;Colombia;Jhon Vasquez;150;107;Extremo derecho
+1210;27;184;derecho;Colombia;Yony Gonzalez;990;107;Extremo derecho
+1211;19;179;derecho;Colombia;Duvan Mina;600;107;Extremo derecho
+1212;30;185;derecho;Argentina;Agustin Vuletich;150;107;Delantero centro
+1213;33;182;derecho;Colombia;angelo Rodriguez;280;107;Delantero centro
+1214;36;177;derecho;Colombia;Teofilo Gutierrez;950;107;Delantero centro
+1215;23;175;derecho;Colombia;Jefferson Ramos;800;107;Delantero centro
+1216;22;188;derecho;Colombia;Carlos Lucumi;800;107;Delantero centro
+1217;38;182;derecho;Colombia;Leandro Castellanos;800;108;Portero
+1218;27;19;derecho;Colombia;Jose Silva;150;108;Portero
+1219;22;187;derecho;Colombia;Juan Espitia;990;108;Portero
+1220;30;184;derecho;Colombia;Francisco Meza;600;108;Defenza central
+1221;23;181;derecho;Colombia;Jose Ortiz;700;108;Defenza central
+1222;28;189;derecho;Colombia;Jerson Malagon;600;108;Defenza central
+1223;21;19;izquierdo;Colombia;Alejandro Moralez;100;108;Defenza central
+1224;33;194;derecho;Colombia;Javier Lopez;200;108;Defenza central
+1225;27;192;derecho;Colombia;Alejandro Gutierrez;900;108;Defenza central
+1226;18;185;izquierdo;Colombia;Kevin Mantilla;250;108;Defenza central
+1227;29;182;izquierdo;Colombia;Dairon Mosquera;200;108;Lateral izquierdo
+1228;23;17;derecho;Colombia;Edwin Herrera;120;108;Lateral izquierdo
+1229;30;174;derecho;Colombia;Harold Gomez;400;108;Lateral derecho
+1230;23;176;derecho;Colombia;Juan Sebastian Pedroza;652;108;Pivote
+1231;30;177;derecho;Colombia;Leonardo Pico;822;108;Pivote
+1232;36;182;izquierdo;Colombia;Carlos Sanchez;480;108;Pivote
+1233;37;182;derecho;Colombia;Yulian Anchico;300;108;Pivote
+1234;22;184;derecho;Colombia;Yilmar Velasquez;275;108;Pivote
+1235;22;177;derecho;Colombia;Yeiler Goez;150;108;Mediocentro
+1236;29;176;derecho;Colombia;Harold Rivera;280;108;Mediocentro
+1237;25;175;derecho;Colombia;Neyder Moreno;950;108;Interior derecho
+1238;31;182;izquierdo;Uruguay;Matias Mier;800;108;Interior izquierdo
+1239;26;177;izquierdo;Colombia;Jonathan Herrera;800;108;Interior izquierdo
+1240;27;174;derecho;Colombia;Jhon Jairo Velasquez;800;108;Mediocentro ofensivo
+1241;20;172;derecho;Colombia;Jersson Gonzalez;150;108;Mediocentro ofensivo
+1242;27;175;derecho;Colombia;Andrey Estupinan;990;108;Extremo izquierdo
+1243;29;166;derecho;Colombia;Wilfrido De la Rosa;600;108;Extremo derecho
+1244;30;155;derecho;Argentina;Ezequiel Aguirre;150;108;Extremo derecho
+1245;34;17;derecho;Colombia;Wilson Morelo;280;108;Delantero centro
+1246;30;184;derecho;Argentina;Fernando Coniglio;950;108;Delantero centro
+1247;33;187;derecho;Paraguay;Gerardo Ortiz;800;109;Portero
+1248;30;189;derecho;Colombia;Eder Chaux;800;109;Portero
+1249;21;193;derecho;Colombia;Debinson Mateus;800;109;Portero
+1250;33;182;derecho;Colombia;Fainer Torijano;150;109;Defenza central
+1251;28;186;derecho;Colombia;Deivy Balanta;990;109;Defenza central
+1252;29;184;derecho;Colombia;Camilo Mancilla;600;109;Defenza central
+1253;22;189;derecho;Colombia;Sebastian Palma;700;109;Defenza central
+1254;22;191;derecho;Colombia;Brayan Cordoba;600;109;Defenza central
+1255;23;184;derecho;Colombia;Jorge Cardona;100;109;Defenza central
+1256;33;18;derecho;Colombia;Felipe Banguero;200;109;Lateral izquierdo
+1257;29;175;izquierdo;Colombia;Nicolas Giraldo;900;109;Lateral izquierdo
+1258;28;178;derecho;Colombia;David Murillo;250;109;Lateral derecho
+1259;36;175;derecho;Colombia;Marlon Piedrahita;300;109;Lateral derecho
+1260;21;173;izquierdo;Colombia;Robert Mejia;275;109;Pivote
+1261;24;187;derecho;Colombia;Sebastian Guzman;150;109;Pivote
+1262;21;176;derecho;Colombia;Dannovi Quinonez;280;109;Pivote
+1263;29;18;izquierdo;Colombia;Juan David Rodriguez;950;109;Mediocentro
+1264;21;184;derecho;Colombia;Alejandro Garcia;800;109;Mediocentro
+1265;31;178;derecho;Colombia;Juan Perez;800;109;Extremo izquierdo
+1266;30;177;derecho;Argentina;Alejandro Barbaro;800;109;Extremo izquierdo
+1267;19;175;derecho;Colombia;Nelson Quinones;150;109;Extremo izquierdo
+1268;22;179;derecho;Colombia;Marcelino Carreazo;990;109;Extremo derecho
+1269;33;175;derecho;Colombia;Ayron del Valle;600;109;Delantero centro
+1270;23;18;derecho;Colombia;Mender Garcia;150;109;Delantero centro
+1271;31;178;derecho;Colombia;Diego Valdes;280;109;Delantero centro
+1272;21;194;derecho;Colombia;Santiago Cubides;950;109;Delantero centro
+1273;30;18;derecho;Colombia;Jose Luis Chunga;800;110;Portero
+1274;27;183;derecho;Colombia;Pier Grazziani;800;110;Portero
+1275;24;16;derecho;Colombia;Jaime Mora;800;110;Portero
+1276;24;185;izquierdo;Colombia;Juan Camilo Arturo;150;110;Portero
+1277;32;188;izquierdo;Colombia;Jaider Riquett;990;110;Defenza central
+1278;31;19;derecho;Colombia;Luciano Ospina;600;110;Defenza central
+1279;26;185;derecho;Colombia;Carlos Perez;700;110;Defenza central
+1280;26;181;derecho;Colombia;Richard Renteria;600;110;Defenza central
+1281;32;17;izquierdo;Colombia;Leonardo Saldana;100;110;Lateral izquierdo
+1282;23;17;izquierdo;Colombia;Tomas Clavijo;200;110;Lateral izquierdo
+1283;25;17;derecho;Colombia;Yhormar Hurtado;900;110;Lateral derecho
+1284;25;16;derecho;Colombia;Jair Castillo;250;110;Lateral derecho
+1285;22;177;derecho;Colombia;Efrain Navarro;200;110;Lateral derecho
+1286;30;18;derecho;Colombia;Carlos Moreno;120;110;Lateral derecho
+1287;24;16;derecho;Colombia;Juan Mancilla;400;110;Pivote
+1288;29;177;derecho;Colombia;Freddy Florez;652;110;Pivote
+1289;26;181;derecho;Colombia;Royscer Colpa;822;110;Pivote
+1290;30;193;izquierdo;Colombia;Julian Guevara;480;110;Mediocentro
+1291;22;184;derecho;Colombia;Ruben Manjarres;300;110;Mediocentro
+1292;28;18;derecho;Colombia;Kevin Londono;275;110;Interior derecho
+1293;28;173;derecho;Colombia;Estefano Arango;150;110;Extremo izquierdo
+1294;27;18;izquierdo;Colombia;Sebastian Acosta;280;110;Extremo izquierdo
+1295;18;174;derecho;Colombia;Luis Miguel Angulo;950;110;Extremo izquierdo
+1296;27;179;derecho;Colombia;Daniel Moreno;800;110;Extremo derecho
+1297;23;176;derecho;Colombia;Stiwart Acuna;800;110;Extremo derecho
+1298;22;16;derecho;Colombia;Andres Morales;800;110;Extremo derecho
+1299;30;183;derecho;Colombia;Brayan Fernandez;150;110;Delantero centro
+1300;20;185;derecho;Colombia;Brayan Gil Hurtado;990;110;Delantero centro
+1301;32;16;derecho;Argentina;Pablo Bueno;600;110;Delantero centro
+1302;23;171;derecho;Colombia;Julian Zea;150;110;Delantero centro
+1303;20;16;derecho;Colombia;Jesus Munoz;280;110;Delantero centro
+1304;26;19;derecho;Colombia;Sergio Roman;950;111;Portero
+1305;27;187;derecho;Uruguay;Washington Ortega;800;111;Portero
+1306;23;18;derecho;Colombia;Andres Perez;800;111;Portero
+1307;30;19;derecho;Colombia;Nicolas Palacios;800;111;Defenza central
+1308;32;178;derecho;Equatorial;Yoiver Gonzalez;150;111;Defenza central
+1309;21;184;izquierdo;Colombia;Bleiner Agron;990;111;Defenza central
+1310;23;186;derecho;Colombia;Daniel Polanco;600;111;Defenza central
+1311;28;169;izquierdo;Colombia;Amaury Torralvo;700;111;Lateral izquierdo
+1312;28;175;izquierdo;Colombia;Andres Correa;600;111;Lateral izquierdo
+1313;35;169;derecho;Colombia;Carlos Arboleda;100;111;Lateral derecho
+1314;25;176;derecho;Colombia;Joan Castro;200;111;Lateral derecho
+1315;27;175;derecho;Colombia;Israel Alba;900;111;Lateral derecho
+1316;31;181;derecho;Uruguay;Pablo Lima;250;111;Pivote
+1317;34;178;derecho;Colombia;Juan Mahecha;300;111;Pivote
+1318;38;17;izquierdo;Colombia;Stalin Motta;275;111;Pivote
+1319;28;176;izquierdo;Colombia;Ederson Moreno;150;111;Mediocentro
+1320;19;16;derecho;Colombia;Johan Rojas;280;111;Mediocentro
+1321;26;181;izquierdo;Colombia;Jhonathan Caicedo;950;111;Interior izquierdo
+1322;26;17;derecho;Colombia;Kevin Salazar;800;111;Mediocentro ofensivo
+1323;21;173;derecho;Colombia;Juan Pablo Gallego;800;111;Extremo izquierdo
+1324;24;175;derecho;Colombia;Neider Barona;800;111;Extremo izquierdo
+1325;22;172;derecho;Colombia;Francisco Chaverra;150;111;Extremo izquierdo
+1326;27;178;derecho;Colombia;Faber Gil;990;111;Extremo derecho
+1327;21;182;derecho;Colombia;Joiner Moreno;600;111;Extremo derecho
+1328;24;188;izquierdo;Colombia;Pablo Sabbag;150;111;Delantero centro
+1329;27;17;derecho;Panama;Ronaldo Dinolis;280;111;Delantero centro
+1330;24;188;derecho;Colombia;David Camacho;950;111;Delantero centro
+1331;28;174;izquierdo;Colombia;Carlos Rivas;800;111;Delantero centro
+1332;22;174;derecho;Colombia;Jose Estupinan;800;111;Delantero centro
+1333;29;185;derecho;Colombia;Juan Camilo Chaverra;800;112;Portero
+1334;29;18;derecho;Colombia;James Aguirre;150;112;Portero
+1335;32;183;derecho;Colombia;Sergio Avellaneda;990;112;Portero
+1336;22;16;derecho;Colombia;Daniel Suarez;600;112;Portero
+1337;33;187;izquierdo;Colombia;Carlos Henao;700;112;Defenza central
+1338;25;183;derecho;Colombia;Jefferson Gomez;600;112;Defenza central
+1339;32;182;derecho;Colombia;Jefferson Mena;100;112;Defenza central
+1340;19;188;derecho;Colombia;Stevenson Jerez;200;112;Defenza central
+1341;24;187;izquierdo;Colombia;Jaime Giraldo;900;112;Lateral izquierdo
+1342;23;175;izquierdo;Colombia;Cristian Blanco;250;112;Lateral izquierdo
+1343;30;17;derecho;Colombia;Cristian Subero;200;112;Lateral derecho
+1344;34;172;izquierdo;Colombia;David Gomez;120;112;Lateral derecho
+1345;28;17;derecho;Colombia;Jackson Montano;400;112;Lateral derecho
+1346;21;188;derecho;Colombia;oscar Alcocer;652;112;Medio campo
+1347;34;183;derecho;Colombia;Francisco Rodriguez;822;112;Pivote
+1348;26;174;derecho;Colombia;Ronaldo Tavera;480;112;Pivote
+1349;29;184;derecho;Colombia;Victor Mejia;300;112;Pivote
+1350;34;187;derecho;Uruguay;Michel Acosta;275;112;Pivote
+1351;30;174;izquierdo;Uruguay;Bruno Teliz;150;112;Mediocentro
+1352;32;168;izquierdo;Colombia;Sherman Cardenas;280;112;Mediocentro ofensivo
+1353;32;17;derecho;Venezuela;Diomar Diaz;950;112;Mediocentro ofensivo
+1354;24;175;derecho;Colombia;Mateo Cano;800;112;Mediocentro ofensivo
+1355;21;164;derecho;Colombia;Juan Marcelin;800;112;Extremo izquierdo
+1356;23;185;derecho;Colombia;Johan Caballero;800;112;Extremo derecho
+1357;26;185;derecho;Colombia;Rodin Quinones;150;112;Extremo derecho
+1358;24;17;derecho;Colombia;Kevin Perez;990;112;Extremo derecho
+1359;20;185;derecho;Colombia;Johan Cristancho;600;112;Extremo derecho
+1360;34;177;derecho;Colombia;Ivan Rivas;150;112;Delantero centro
+1361;36;178;derecho;Colombia;Dayro Moreno;280;112;Delantero centro
+1362;31;181;derecho;Uruguay;Sebastian Gularte;950;112;Delantero centro
+1363;25;16;derecho;Colombia;Yeison Moreno;800;112;Delantero centro
+1364;32;184;derecho;Colombia;Christian Vargas;800;113;Portero
+1365;29;183;derecho;Colombia;Juan Valencia;800;113;Portero
+1366;23;188;derecho;Colombia;Freddy Mosquera;150;113;Portero
+1367;24;185;derecho;Colombia;Jeison Quinones;990;113;Defenza central
+1368;24;185;derecho;Colombia;Jean Carlos Pestana;600;113;Defenza central
+1369;33;186;derecho;Colombia;Oswaldo Henriquez;700;113;Defenza central
+1370;21;16;derecho;Colombia;Sebastian Rodriguez;600;113;Defenza central
+1371;19;16;derecho;Colombia;Nicolas Lara;100;113;Defenza central
+1372;29;171;izquierdo;Colombia;Mauricio Duarte;200;113;Lateral izquierdo
+1373;24;174;izquierdo;Colombia;Alejandro Artunduaga;900;113;Lateral izquierdo
+1374;20;178;izquierdo;Colombia;Yoni Mosquera;250;113;Lateral izquierdo
+1375;24;172;derecho;Colombia;Mateo Puerta;300;113;Lateral derecho
+1376;22;16;derecho;Colombia;Jose Ampudia;275;113;Lateral derecho
+1377;20;16;derecho;Colombia;Juan Esteban Avalo;150;113;Medio campo
+1378;26;185;derecho;Colombia;Felipe Jaramillo;280;113;Pivote
+1379;29;18;derecho;Venezuela;oscar Hernandez;950;113;Pivote
+1380;25;175;derecho;Colombia;Jesus Rivas;800;113;Pivote
+1381;21;16;derecho;Colombia;Kevin Duvan Castano;800;113;Pivote
+1382;22;16;derecho;Colombia;Juan Pablo Diaz;800;113;Pivote
+1383;21;17;derecho;Colombia;Jader Quinones;150;113;Mediocentro
+1384;24;16;derecho;Colombia;Juan Otalvaro;990;113;Mediocentro ofensivo
+1385;36;177;derecho;Colombia;Christian Marrugo;600;113;Mediocentro ofensivo
+1386;24;17;derecho;Colombia;Juan Camilo Salazar;150;113;Extremo izquierdo
+1387;22;172;derecho;Colombia;Juan Penaloza;280;113;Extremo izquierdo
+1388;27;178;derecho;Colombia;Jhon Fredy Salazar;950;113;Extremo derecho
+1389;31;182;derecho;Colombia;Marco Perez;800;113;Delantero centro
+1390;29;18;derecho;Colombia;Jhonatan Agudelo;800;113;Delantero centro
+1391;25;174;derecho;Colombia;Jhon Fredy Miranda;800;113;Delantero centro
+1392;22;183;derecho;Colombia;Luis Sandoval;150;113;Delantero centro
+1393;21;16;derecho;Colombia;Jhonier Blanco;990;113;Delantero centro
+1394;19;16;derecho;Colombia;Anthony Vasquez;600;113;Delantero centro
+1395;28;188;derecho;Colombia;Harlen Castillo;700;114;Portero
+1396;27;187;izquierdo;EstadosUnidos;Santiago Castano;600;114;Portero
+1397;23;16;derecho;Colombia;Franklin Mosquera;100;114;Portero
+1398;36;18;derecho;Colombia;Danny Cano;200;114;Defenza central
+1399;37;18;derecho;Colombia;Andres Felipe Correa;900;114;Defenza central
+1400;34;182;izquierdo;Colombia;Carlos Ramirez;250;114;Defenza central
+1401;20;186;derecho;Colombia;Carlos Emiro Garces;200;114;Defenza central
+1402;23;16;derecho;Colombia;Luis Lopez;120;114;Defenza central
+1403;30;175;izquierdo;Venezuela;Daniel Linarez;400;114;Lateral izquierdo
+1404;24;174;izquierdo;Colombia;Yeison Suarez;652;114;Lateral izquierdo
+1405;22;173;derecho;Colombia;Jherson Mosquera;822;114;Lateral derecho
+1406;28;176;derecho;Colombia;Juan Zuluaga;480;114;Lateral derecho
+1407;18;16;derecho;Colombia;Edwin Martinez;300;114;Lateral derecho
+1408;27;171;derecho;Colombia;Harlin Suarez;275;114;Pivote
+1409;34;177;derecho;Colombia;Jhonny Vasquez;150;114;Pivote
+1410;21;16;derecho;Colombia;Jorge Andres Bermudez;280;114;Pivote
+1411;23;175;derecho;Colombia;Leider Berrio;950;114;Pivote
+1412;24;178;izquierdo;Colombia;Maicol Medina;800;114;Mediocentro
+1413;33;175;derecho;Colombia;Rafael Navarro;800;114;Mediocentro
+1414;29;173;derecho;Colombia;Daniel Restrepo;800;114;Mediocentro
+1415;30;172;izquierdo;Colombia;Santiago Montoya;150;114;Mediocentro ofensivo
+1416;24;18;derecho;Colombia;Kevin Lugo;990;114;Mediocentro ofensivo
+1417;34;177;izquierdo;Colombia;Henry Rojas;600;114;Mediocentro ofensivo
+1418;27;174;izquierdo;Colombia;Jader Maza;150;114;Extremo izquierdo
+1419;25;179;izquierdo;Colombia;Duban Palacio;280;114;Extremo izquierdo
+1420;19;182;derecho;Colombia;Alejandro Piedrahita;950;114;Extremo izquierdo
+1421;23;171;derecho;Colombia;Jose Luis Sinisterra;800;114;Extremo izquierdo
+1422;21;175;derecho;Colombia;Brayan Muniz;800;114;Delantero centro
+1423;30;186;derecho;Colombia;Jose Valencia;800;114;Delantero centro
+1424;29;18;derecho;Colombia;Leonardo Castro;150;114;Delantero centro
+1425;19;16;derecho;Colombia;Joan Osorio Guzman;990;114;Delantero centro
+1426;36;183;derecho;Colombia;Pablo Mina;600;115;Portero
+1427;28;187;derecho;Colombia;Jorge Soto;700;115;Portero
+1428;24;185;derecho;Colombia;Duvan Carillo;600;115;Portero
+1429;25;18;derecho;Colombia;Ivan Scarpeta;100;115;Defenza central
+1430;25;16;derecho;Colombia;Jose Orlando Perez;200;115;Defenza central
+1431;24;194;derecho;Colombia;Cristian Moya;900;115;Defenza central
+1432;27;187;derecho;Venezuela;Geremias Melendez;250;115;Defenza central
+1433;28;177;izquierdo;Colombia;Mauricio Castano;300;115;Lateral izquierdo
+1434;23;171;izquierdo;Colombia;Juan Silgado;275;115;Lateral izquierdo
+1435;31;17;izquierdo;Colombia;Nelino Tapia;150;115;Lateral izquierdo
+1436;21;18;derecho;Colombia;Jhon Altamiranda;280;115;Lateral derecho
+1437;22;16;derecho;Colombia;Jaime Diaz;950;115;Lateral derecho
+1438;23;183;derecho;Colombia;Carlos Tejedor;800;115;Medio campo
+1439;21;172;derecho;Colombia;Kevin Padilla;800;115;Medio campo
+1440;29;179;derecho;Colombia;Cesar Carrillo;800;115;Pivote
+1441;23;16;derecho;Colombia;Juan Fernando Giraldo;150;115;Pivote
+1442;28;178;derecho;Colombia;Daniel Padilla;990;115;Pivote
+1443;22;16;derecho;Colombia;Rafael Bustamante;600;115;Mediocentro
+1444;23;176;derecho;Venezuela;Luis Chiquillo;150;115;Mediocentro
+1445;20;171;derecho;Colombia;Andres Arroyo;280;115;Mediocentro ofensivo
+1446;26;17;derecho;Venezuela;Juan Carlos Castellanos;950;115;Mediocentro ofensivo
+1447;22;18;derecho;Colombia;Carlos Copete;800;115;Mediocentro ofensivo
+1448;30;167;derecho;Colombia;Pablo Rojas;800;115;Extremo izquierdo
+1449;30;17;derecho;Colombia;Jhonier Viveros;800;115;Extremo izquierdo
+1450;26;17;derecho;Colombia;Jefferson Solano;150;115;Extremo izquierdo
+1451;29;177;derecho;Venezuela;Joel Infante;990;115;Extremo izquierdo
+1452;32;177;derecho;Colombia;Maicol Balanta;600;115;Extremo derecho
+1453;26;165;derecho;Colombia;Duvan Rodriguez;700;115;Extremo derecho
+1454;29;179;derecho;Colombia;Andres Renteria;600;115;Delantero centro
+1455;28;188;derecho;Colombia;Jarlin Quintero;100;115;Delantero centro
+1456;25;185;derecho;Argentina;Agustin Auzmendi;200;115;Delantero centro
+1457;24;18;derecho;Colombia;Victor Cabezas;900;116;Portero
+1458;32;18;derecho;Colombia;Diego Martinez;250;116;Portero
+1459;21;18;derecho;Colombia;Ederson Cabezas Quinonez;200;116;Portero
+1460;32;185;izquierdo;Colombia;Luis Payares;120;116;Defenza central
+1461;26;188;derecho;Colombia;Kevin Riascos;400;116;Defenza central
+1462;24;185;derecho;Colombia;Cristian Tovar;652;116;Defenza central
+1463;29;186;derecho;Paraguay;Ruben Monges;822;116;Defenza central
+1464;23;178;izquierdo;Colombia;Pedro Valoyes;480;116;Lateral izquierdo
+1465;29;182;izquierdo;Colombia;Diego Sanchez;300;116;Lateral izquierdo
+1466;21;176;izquierdo;Colombia;Mateo Garavito;275;116;Lateral izquierdo
+1467;22;18;izquierdo;Colombia;Juan Vasquez;150;116;Lateral izquierdo
+1468;26;179;derecho;Colombia;Geovan Montes;280;116;Lateral derecho
+1469;35;18;derecho;Colombia;Gilberto Garcia;950;116;Lateral derecho
+1470;21;183;derecho;Colombia;Yilson Rosales;800;116;Lateral derecho
+1471;35;179;derecho;Colombia;Camilo Ayala;800;116;Pivote
+1472;23;18;derecho;Colombia;Matheo Castano;800;116;Pivote
+1473;25;18;derecho;Colombia;Johan Caicedo;150;116;Pivote
+1474;27;178;derecho;Colombia;Juan Roa;990;116;Mediocentro
+1475;26;172;derecho;Colombia;Santiago Orozco;600;116;Mediocentro
+1476;26;179;izquierdo;Uruguay;Facundo Ospitaleche;150;116;Mediocentro
+1477;33;176;derecho;Colombia;Cesar Quintero;280;116;Interior derecho
+1478;26;165;derecho;Colombia;Yesith Martinez;950;116;Interior derecho
+1479;29;173;izquierdo;Argentina;Mariano Vazquez;800;116;Mediocentro ofensivo
+1480;30;17;derecho;Colombia;Juan Sebastian Villota;800;116;Mediocentro ofensivo
+1481;18;168;izquierdo;Colombia;Willian Ordonez;800;116;Mediocentro ofensivo
+1482;26;176;izquierdo;Uruguay;Facundo Bone;150;116;Extremo izquierdo
+1483;30;172;izquierdo;Colombia;Leiner Escalante;990;116;Extremo izquierdo
+1484;21;18;derecho;Colombia;Jonathan Perlaza;600;116;Extremo izquierdo
+1485;24;178;izquierdo;Colombia;Adrian Estacio;700;116;Extremo derecho
+1486;25;17;derecho;Colombia;Victor Arboleda;600;116;Extremo derecho
+1487;34;175;derecho;Colombia;Cesar Arias;100;116;Delantero centro
+1488;35;182;derecho;Colombia;Duvier Riascos;200;116;Delantero centro
+1489;36;184;derecho;Colombia;Carlos Hidalgo;900;116;Delantero centro
+1490;23;184;izquierdo;Colombia;Hasan Vergara;250;116;Delantero centro
+1491;27;184;derecho;Colombia;Santiago Londono;300;117;Portero
+1492;21;184;derecho;Colombia;Joan Parra;275;117;Portero
+1493;21;183;derecho;Colombia;Daniel Melo;150;117;Portero
+1494;30;183;derecho;Paraguay;Francisco Baez;280;117;Defenza central
+1495;23;182;derecho;Colombia;Santiago Norena;950;117;Defenza central
+1496;19;18;derecho;Colombia;Carlos Ordonez;800;117;Defenza central
+1497;20;18;derecho;Colombia;Yilson Alejandro Mosquera;800;117;Defenza central
+1498;18;192;derecho;Colombia;Jhon Banguera;800;117;Defenza central
+1499;21;178;izquierdo;Colombia;Yeferson Rodallega;150;117;Lateral izquierdo
+1500;22;184;derecho;Colombia;Yilmar Celedon;990;117;Lateral izquierdo
+1501;27;185;izquierdo;Colombia;Daniel Londono;600;117;Lateral izquierdo
+1502;24;18;derecho;Colombia;Santiago Jimenez;150;117;Lateral derecho
+1503;22;18;derecho;Colombia;Christian Andrade;280;117;Lateral derecho
+1504;22;178;derecho;Colombia;Edison Lopez;950;117;Medio campo
+1505;24;177;izquierdo;Colombia;Ivan Rojas;800;117;Pivote
+1506;26;186;derecho;Colombia;Diego Moreno;800;117;Pivote
+1507;32;176;derecho;England;George Saunders;800;117;Pivote
+1508;17;18;derecho;Colombia;William Hurtado;150;117;Pivote
+1509;21;178;derecho;Colombia;Juan Manuel Zapata;990;117;Mediocentro
+1510;22;177;derecho;EstadosUnidos;Andres Jimenez;600;117;Mediocentro
+1511;22;182;derecho;Colombia;Yadir Meneses;700;117;Interior derecho
+1512;18;186;izquierdo;Colombia;Yaser Asprilla;600;117;Mediocentro ofensivo
+1513;19;18;derecho;Colombia;Pablo alvarez;100;117;Mediocentro ofensivo
+1514;17;18;derecho;Colombia;Josep Mejia;200;117;Mediocentro ofensivo
+1515;21;166;derecho;Colombia;Camilo Paternina;900;117;Mediocentro ofensivo
+1516;21;18;derecho;Colombia;Daniel Tegue;250;117;Mediocentro ofensivo
+1517;20;18;derecho;Colombia;Henry Mosquera;200;117;Extremo izquierdo
+1518;28;175;derecho;Venezuela;Andres Montero;120;117;Extremo derecho
+1519;30;177;derecho;Colombia;Wilder Guisao;400;117;Extremo derecho
+1520;20;18;derecho;Colombia;Bryan Sinisterra;652;117;Extremo derecho
+1521;29;182;derecho;Venezuela;Jesus Hernandez;822;117;Delantero centro
+1522;22;179;derecho;Venezuela;Jose Barragan;480;117;Delantero centro
+1523;21;18;derecho;Colombia;Deiler Cordoba;300;117;Delantero centro
+1524;19;18;derecho;Colombia;Diego Betancourth;275;117;Delantero centro
+1525;27;191;derecho;Colombia;Carlos Mosquera;150;118;Portero
+1526;28;186;derecho;Colombia;Luis Hurtado;280;118;Portero
+1527;25;185;izquierdo;Colombia;Santiago Ruiz;950;118;Defenza central
+1528;24;186;derecho;Colombia;Mateo Rodas;800;118;Defenza central
+1529;30;189;derecho;Colombia;Jonathan avila;800;118;Defenza central
+1530;25;187;izquierdo;Colombia;Jose Luis Moreno;800;118;Defenza central
+1531;26;186;izquierdo;Colombia;Mairon Quinonez;150;118;Lateral izquierdo
+1532;25;181;izquierdo;Colombia;Federico Arbelaez;990;118;Lateral izquierdo
+1533;24;173;izquierdo;Colombia;Carlos De Las Salas;600;118;Lateral izquierdo
+1534;26;171;derecho;Colombia;Jorge Posada;150;118;Lateral derecho
+1535;24;18;derecho;Colombia;Diego Ruiz;280;118;Lateral derecho
+1536;23;18;derecho;Colombia;Daniel Gomez;950;118;Medio campo
+1537;28;183;derecho;Colombia;Jose Leudo;800;118;Pivote
+1538;20;18;derecho;France;Quentin Danloux;800;118;Pivote
+1539;20;18;derecho;Colombia;Arley Mosquera;800;118;Pivote
+1540;26;176;izquierdo;Venezuela;Leonardo Flores;150;118;Mediocentro
+1541;25;176;derecho;Colombia;Luis Perez;990;118;Mediocentro
+1542;25;182;derecho;Colombia;Jose Andrade;600;118;Mediocentro
+1543;24;187;derecho;EstadosUnidos;Adam Ozeri;700;118;Mediocentro
+1544;31;181;izquierdo;Colombia;Jose Gabriel Ramirez;600;118;Interior izquierdo
+1545;22;18;derecho;Colombia;Mateo Ramirez;100;118;Mediocentro ofensivo
+1546;22;156;derecho;Colombia;Mayer Vidal;200;118;Extremo izquierdo
+1547;24;168;derecho;Colombia;Jose Guzman;900;118;Extremo izquierdo
+1548;22;17;izquierdo;Brazil;Marcilio;250;118;Extremo izquierdo
+1549;23;166;izquierdo;Colombia;Cristian Barrios;300;118;Extremo derecho
+1550;30;18;derecho;Colombia;Carlos Mosquera;275;118;Extremo derecho
+1551;20;18;derecho;Colombia;Camilo Charris;150;118;Extremo derecho
+1552;23;18;derecho;Colombia;Jacobo Escobar;280;118;Delantero centro
+1553;30;176;derecho;Colombia;Darwin Lopez;950;118;Delantero centro
+1554;23;184;derecho;Colombia;Edward Bolanos;800;118;Delantero centro
+1555;19;18;derecho;Colombia;Jorge Mendoza;800;118;Delantero centro
+1556;19;185;derecho;Colombia;Juan Nazarit;800;118;Delantero centro
+1557;24;188;derecho;Colombia;Manuel Arias;150;119;Portero
+1558;36;184;derecho;Uruguay;Ernesto Hernandez;990;119;Portero
+1559;25;187;derecho;Colombia;Guillermo Gomez;600;119;Portero
+1560;22;18;derecho;Colombia;Bairon Escobar;150;119;Defender
+1561;23;187;izquierdo;Colombia;Duvan Viafara;280;119;Defenza central
+1562;24;183;izquierdo;Colombia;Julian Millan;950;119;Defenza central
+1563;19;18;derecho;Colombia;Santiago Vergara;800;119;Defenza central
+1564;29;183;derecho;Argentina;Rodrigo Paillalef;800;119;Defenza central
+1565;18;18;derecho;Colombia;Jose Garcia;800;119;Defenza central
+1566;22;188;derecho;Colombia;Jaison Mina;150;119;Defenza central
+1567;22;174;izquierdo;Colombia;Fabio Delgado;990;119;Lateral izquierdo
+1568;27;175;izquierdo;Colombia;Andres Rivera;600;119;Lateral izquierdo
+1569;22;173;izquierdo;Colombia;Kevin Palacios;700;119;Lateral izquierdo
+1570;19;187;izquierdo;Colombia;Juan Camilo Mosquera;600;119;Lateral izquierdo
+1571;33;179;derecho;Colombia;Jhonatan Perez;100;119;Lateral derecho
+1572;20;168;derecho;Colombia;Lewis Sinisterra;200;119;Medio campo
+1573;20;18;derecho;Colombia;Maikoll Herrera;900;119;Medio campo
+1574;25;172;derecho;Colombia;Luis Caicedo;250;119;Pivote
+1575;31;172;derecho;Colombia;Jonny Mosquera;200;119;Pivote
+1576;23;183;derecho;Colombia;Edwin Laszo;120;119;Pivote
+1577;24;182;derecho;Colombia;Juan Carlos Caicedo;400;119;Pivote
+1578;21;18;derecho;Colombia;Jean Colorado;652;119;Mediocentro
+1579;23;185;derecho;Colombia;Juan Manuel Valencia;822;119;Mediocentro
+1580;23;17;izquierdo;Colombia;Juan Lobo;480;119;Mediocentro ofensivo
+1581;19;168;izquierdo;Colombia;Alexis Manyoma;300;119;Mediocentro ofensivo
+1582;18;18;derecho;Colombia;Jairo Ditta;275;119;Mediocentro ofensivo
+1583;25;171;derecho;Colombia;Jose Palacios;150;119;Extremo izquierdo
+1584;23;17;izquierdo;Colombia;Johan Bocanegra;280;119;Extremo izquierdo
+1585;26;18;derecho;Colombia;Guillermo Murillo;950;119;Extremo derecho
+1586;22;178;izquierdo;Colombia;Yeferson Contreras;800;119;Extremo derecho
+1587;31;174;izquierdo;Colombia;Feiver Mercado;800;119;Delantero centro
+1588;27;178;derecho;Colombia;Juan Sebastian Herrera;800;119;Delantero centro
+1589;35;181;izquierdo;Colombia;Luis Carlos Ruiz;150;119;Delantero centro
+1590;20;184;derecho;Colombia;Kener Valencia;990;119;Delantero centro
+1591;37;184;derecho;Colombia;Carlos Bejarano;600;120;Portero
+1592;38;186;derecho;Colombia;Ramiro Sanchez;150;120;Portero
+1593;31;185;derecho;Colombia;Jonathan Segura;280;120;Defenza central
+1594;34;181;derecho;Colombia;Jonathan Lopera;950;120;Defenza central
+1595;27;186;izquierdo;Colombia;Stiwar Mena;800;120;Defenza central
+1596;24;186;derecho;Colombia;Juan Pablo Vacca;800;120;Defenza central
+1597;22;18;izquierdo;Colombia;Jermein Pena;800;120;Defenza central
+1598;23;194;izquierdo;Colombia;Brayam Palacios;150;120;Defenza central
+1599;29;17;izquierdo;Colombia;Brayan Correa;990;120;Lateral izquierdo
+1600;25;18;izquierdo;Colombia;Andres Escobar;600;120;Lateral izquierdo
+1601;37;175;derecho;Colombia;James Castro;700;120;Lateral derecho
+1602;21;186;derecho;Colombia;Jose Gomez;600;120;Lateral derecho
+1603;23;18;derecho;Colombia;Andres Canchano;100;120;Lateral derecho
+1604;20;18;derecho;Colombia;Alain Guerrero;200;120;Lateral derecho
+1605;33;182;derecho;Colombia;Jairo Palomino;900;120;Pivote
+1606;24;18;derecho;Colombia;Ronaldo Lora;250;120;Pivote
+1607;22;18;derecho;Colombia;Roberto Vanegas;300;120;Pivote
+1608;34;177;derecho;Colombia;James Sanchez;275;120;Mediocentro
+1609;24;184;derecho;Colombia;Fabian Cantillo;150;120;Mediocentro
+1610;23;178;derecho;Colombia;Mateo Garcia;280;120;Mediocentro
+1611;27;18;derecho;Colombia;Jahir Scott;950;120;Mediocentro
+1612;25;174;derecho;Colombia;Daiver Vega;800;120;Extremo izquierdo
+1613;23;165;izquierdo;Colombia;Joel Contreras;800;120;Extremo izquierdo
+1614;33;172;derecho;Colombia;Diego Gomez;800;120;Extremo derecho
+1615;22;17;izquierdo;Colombia;Roberto Hinojosa;150;120;Extremo derecho
+1616;27;178;derecho;Colombia;Jose Lloreda;990;120;Delantero centro
+1617;29;182;derecho;Colombia;Ethan Gonzalez;600;120;Delantero centro
+1618;22;18;derecho;Colombia;Isaac Camargo;150;120;Delantero centro
