@@ -598,7 +598,12 @@ create view Directores_Tecnicos_Presupuesto as
 select nombre, presupuesto_en_miles, rank() over(order by presupuesto_en_miles desc) as dt_presupuesto_rank
 from Directores_Tecnicos_Presupuesto;
 
-
+create view Jugadores_influyentes as
+select nombre, id_jugador, puntos_por_partido
+from jugador, estadisticas_jugador
+where jugador.id_j=estadisticas_jugador.id_jugador;
+select nombre, puntos_por_partido, rank() over(order by puntos_por_partido desc) as Influyentes_rank
+from Jugadores_influyentes;
 
 
 
