@@ -47,6 +47,7 @@ Teniendo en cuenta en plano inicial, el diseños logico y conceptual, luego de a
 
 En el cual se evidencian 18 tablas con sus llaves primarias y llaves foraneas, donde dos son las principales(jugador y club) que se derivan las demas(contrato jugador, director tecnico, estadio etc..) entre esas tablas estan estadisticas del jugador y estadisticas del club, que son las que se puede lograr un mayor analisis por sus atributostan representativos para los clubs de la liga colombiana de futbol. 
 
+![modelo](https://user-images.githubusercontent.com/72886478/170491174-b682f67d-b8f9-49a4-bfdc-7124590f404d.png)
 
 **Inserción Datos**
 Web scraping, es una técnica utilizada mediante Python para extraer información de sitios web, en nuestro caso en específico extrajimos los datos de TransferMarket. El web scraping está muy relacionado con la indexación de la web, la cual indexa la información de la web utilizando la librería requests, se enfoca más en la transformación de datos sin estructura en la web (como el formato HTML) en datos estructurados que pueden ser almacenados y analizados en la base de datos liga, en una archivo CSV. El uso que le dimos a esta herramienta fue la extracción de los datos de las tablas principales y con mayor cantidad de datos que era muy complicado e ineficiente extraerlos a mano ya que gracias a su capacidad de generar grandes cantidades de datos para crear contenidos de calidad pudimos extraer con éxito todos los datos para poder hacer un mayor análisis.
