@@ -1,0 +1,607 @@
+-- Database generated with pgModeler (PostgreSQL Database Modeler).
+-- pgModeler  version: 0.9.3
+-- PostgreSQL version: 13.0
+-- Project Site: pgmodeler.io
+-- Model Author: ---
+
+-- Database creation must be performed outside a multi lined SQL file. 
+-- These commands were put in this file only as a convenience.
+-- 
+-- object: new_database | type: DATABASE --
+-- DROP DATABASE IF EXISTS new_database;
+
+-- ddl-end --
+
+
+-- object: public.jugador | type: TABLE --
+-- DROP TABLE IF EXISTS public.jugador CASCADE;
+CREATE TABLE public.jugador (
+	id_j smallint NOT NULL,
+	edad smallint,
+	altura decimal(4),
+	pie_habil varchar(15),
+	nacionalidad varchar(30),
+	nombre varchar(50),
+	valor_mercado_en_miles integer,
+	id_club smallint,
+	posicion varchar(30),
+	CONSTRAINT jugador_pk PRIMARY KEY (id_j)
+
+);
+-- ddl-end --
+ALTER TABLE public.jugador OWNER TO postgres;
+-- ddl-end --
+
+-- object: public.club | type: TABLE --
+-- DROP TABLE IF EXISTS public.club CASCADE;
+CREATE TABLE public.club (
+	id_cl smallint NOT NULL,
+	nombre varchar(30),
+	ciudad varchar(30),
+	presupuesto_en_miles smallint,
+	id_estadio smallint,
+	CONSTRAINT club_pk PRIMARY KEY (id_cl)
+
+);
+-- ddl-end --
+ALTER TABLE public.club OWNER TO postgres;
+-- ddl-end --
+
+-- object: public.director_tecnico | type: TABLE --
+-- DROP TABLE IF EXISTS public.director_tecnico CASCADE;
+CREATE TABLE public.director_tecnico (
+	id_dt smallint NOT NULL,
+	nacionalidad varchar(15),
+	fecha_nacimiento date,
+	nombre varchar(30),
+	id_club smallint,
+	CONSTRAINT director_tecnico_pk PRIMARY KEY (id_dt)
+
+);
+-- ddl-end --
+ALTER TABLE public.director_tecnico OWNER TO postgres;
+-- ddl-end --
+
+-- object: public.estadio | type: TABLE --
+-- DROP TABLE IF EXISTS public.estadio CASCADE;
+CREATE TABLE public.estadio (
+	id_es smallint NOT NULL,
+	capacidad integer,
+	nombre varchar(50),
+	CONSTRAINT estadio_pk PRIMARY KEY (id_es)
+
+);
+-- ddl-end --
+ALTER TABLE public.estadio OWNER TO postgres;
+-- ddl-end --
+
+-- object: public.estadisticas_jugador | type: TABLE --
+-- DROP TABLE IF EXISTS public.estadisticas_jugador CASCADE;
+CREATE TABLE public.estadisticas_jugador (
+	id_jugador smallint,
+	partidos_jugados smallint,
+	partidos_en_alineacion smallint,
+	puntos_por_partido decimal,
+	goles smallint,
+	autogoles smallint,
+	entra_sustituto smallint,
+	sustituido smallint,
+	amarillas smallint,
+	doble_amarilla smallint,
+	rojas smallint,
+	goles_concedidos smallint,
+	porterias_a_cero smallint,
+	minutos_jugados decimal,
+	asistencias smallint,
+	id_estadisticas_jugador smallint NOT NULL,
+	CONSTRAINT estadisticas_jugador_pk PRIMARY KEY (id_estadisticas_jugador)
+
+);
+-- ddl-end --
+ALTER TABLE public.estadisticas_jugador OWNER TO postgres;
+-- ddl-end --
+
+-- object: public.uniforme_local | type: TABLE --
+-- DROP TABLE IF EXISTS public.uniforme_local CASCADE;
+CREATE TABLE public.uniforme_local (
+	id_lo smallint NOT NULL,
+	color_principal varchar(30),
+	color_secundario varchar(30),
+	id_club smallint,
+	CONSTRAINT uniforme_local_pk PRIMARY KEY (id_lo)
+
+);
+-- ddl-end --
+ALTER TABLE public.uniforme_local OWNER TO postgres;
+-- ddl-end --
+
+-- object: public.uniforme_visitante | type: TABLE --
+-- DROP TABLE IF EXISTS public.uniforme_visitante CASCADE;
+CREATE TABLE public.uniforme_visitante (
+	id_uv smallint NOT NULL,
+	color_principal varchar(30),
+	color_secundario varchar(30),
+	id_club smallint,
+	CONSTRAINT id PRIMARY KEY (id_uv)
+
+);
+-- ddl-end --
+ALTER TABLE public.uniforme_visitante OWNER TO postgres;
+-- ddl-end --
+
+-- object: public.contrato_dt | type: TABLE --
+-- DROP TABLE IF EXISTS public.contrato_dt CASCADE;
+CREATE TABLE public.contrato_dt (
+	id_club smallint,
+	id_dt smallint,
+	fecha_inicial_dt date,
+	fecha_final_dt date,
+	salario_dt integer,
+	id_contrato_dt smallint NOT NULL,
+	CONSTRAINT contrato_dt_pk PRIMARY KEY (id_contrato_dt)
+
+);
+-- ddl-end --
+ALTER TABLE public.contrato_dt OWNER TO postgres;
+-- ddl-end --
+
+-- object: public.entrenador | type: TABLE --
+-- DROP TABLE IF EXISTS public.entrenador CASCADE;
+CREATE TABLE public.entrenador (
+	id_e smallint NOT NULL,
+	area varchar(30),
+	nombre varchar(30),
+	id_club smallint,
+	CONSTRAINT entrenador_pk PRIMARY KEY (id_e)
+
+);
+-- ddl-end --
+ALTER TABLE public.entrenador OWNER TO postgres;
+-- ddl-end --
+
+-- object: public.contrato_jugador | type: TABLE --
+-- DROP TABLE IF EXISTS public.contrato_jugador CASCADE;
+CREATE TABLE public.contrato_jugador (
+	id_club smallint,
+	id_jugador smallint,
+	fecha_inicial_jg date,
+	fecha_final_jg date,
+	id_contrato_jugador smallint NOT NULL,
+	salario_cj smallint NOT NULL,
+	CONSTRAINT contrato_jugador_pk PRIMARY KEY (id_contrato_jugador)
+
+);
+-- ddl-end --
+ALTER TABLE public.contrato_jugador OWNER TO postgres;
+-- ddl-end --
+
+-- object: public.equipacion | type: TABLE --
+-- DROP TABLE IF EXISTS public.equipacion CASCADE;
+CREATE TABLE public.equipacion (
+	dorsal smallint,
+	talla char(1),
+	nombre_espalda smallint,
+	id_jugador smallint,
+	id_equipacion smallint NOT NULL,
+	CONSTRAINT equipacion_pk PRIMARY KEY (id_equipacion)
+
+);
+-- ddl-end --
+ALTER TABLE public.equipacion OWNER TO postgres;
+-- ddl-end --
+
+-- object: public.patrocinador | type: TABLE --
+-- DROP TABLE IF EXISTS public.patrocinador CASCADE;
+CREATE TABLE public.patrocinador (
+	marca varchar(30),
+	id_club smallint,
+	id_patrocinador smallint NOT NULL,
+	CONSTRAINT patrocinador_pk PRIMARY KEY (id_patrocinador)
+
+);
+-- ddl-end --
+ALTER TABLE public.patrocinador OWNER TO postgres;
+-- ddl-end --
+
+-- object: public."Estadisticas_club" | type: TABLE --
+-- DROP TABLE IF EXISTS public."Estadisticas_club" CASCADE;
+CREATE TABLE public."Estadisticas_club" (
+	id_club smallint,
+	partidos_jugados smallint,
+	victorias smallint,
+	empates smallint,
+	derrotas smallint,
+	goles_a_favor smallint,
+	goles_en_contra smallint,
+	id_estadisticas_club smallint NOT NULL,
+	CONSTRAINT "Estadisticas_club_pk" PRIMARY KEY (id_estadisticas_club)
+
+);
+-- ddl-end --
+ALTER TABLE public."Estadisticas_club" OWNER TO postgres;
+-- ddl-end --
+
+-- object: public.equipo_medico | type: TABLE --
+-- DROP TABLE IF EXISTS public.equipo_medico CASCADE;
+CREATE TABLE public.equipo_medico (
+	id_em smallint NOT NULL,
+	nombre varchar(30),
+	id_club smallint,
+	CONSTRAINT equipo_medico_pk PRIMARY KEY (id_em)
+
+);
+-- ddl-end --
+ALTER TABLE public.equipo_medico OWNER TO postgres;
+-- ddl-end --
+
+-- object: public.equipo_utileria | type: TABLE --
+-- DROP TABLE IF EXISTS public.equipo_utileria CASCADE;
+CREATE TABLE public.equipo_utileria (
+	id_eu smallint NOT NULL,
+	nombre varchar(30),
+	id_club smallint,
+	CONSTRAINT equipo_utileria_pk PRIMARY KEY (id_eu)
+
+);
+-- ddl-end --
+ALTER TABLE public.equipo_utileria OWNER TO postgres;
+-- ddl-end --
+
+-- object: public.titular | type: TABLE --
+-- DROP TABLE IF EXISTS public.titular CASCADE;
+CREATE TABLE public.titular (
+	id_t smallint NOT NULL,
+	id_jugador smallint,
+	CONSTRAINT titular_pk PRIMARY KEY (id_t)
+
+);
+-- ddl-end --
+ALTER TABLE public.titular OWNER TO postgres;
+-- ddl-end --
+
+-- object: public.suplente | type: TABLE --
+-- DROP TABLE IF EXISTS public.suplente CASCADE;
+CREATE TABLE public.suplente (
+	id_s smallint NOT NULL,
+	id_jugador smallint,
+	CONSTRAINT id_s PRIMARY KEY (id_s)
+
+);
+-- ddl-end --
+ALTER TABLE public.suplente OWNER TO postgres;
+-- ddl-end --
+
+-- object: public.alineacion | type: TABLE --
+-- DROP TABLE IF EXISTS public.alineacion CASCADE;
+CREATE TABLE public.alineacion (
+	id_jugadores_iniciales smallint,
+	id_jugadores_suplentes smallint,
+	id_alineacion smallint NOT NULL,
+	CONSTRAINT alineacion_pk PRIMARY KEY (id_alineacion)
+
+);
+-- ddl-end --
+ALTER TABLE public.alineacion OWNER TO postgres;
+-- ddl-end --
+
+-- object: id_club | type: CONSTRAINT --
+-- ALTER TABLE public.jugador DROP CONSTRAINT IF EXISTS id_club CASCADE;
+ALTER TABLE public.jugador ADD CONSTRAINT id_club FOREIGN KEY (id_club)
+REFERENCES public.club (id_cl) MATCH FULL
+ON DELETE NO ACTION ON UPDATE NO ACTION;
+-- ddl-end --
+
+-- object: id_estadio | type: CONSTRAINT --
+-- ALTER TABLE public.club DROP CONSTRAINT IF EXISTS id_estadio CASCADE;
+ALTER TABLE public.club ADD CONSTRAINT id_estadio FOREIGN KEY (id_estadio)
+REFERENCES public.estadio (id_es) MATCH FULL
+ON DELETE NO ACTION ON UPDATE NO ACTION;
+-- ddl-end --
+
+-- object: id_club | type: CONSTRAINT --
+-- ALTER TABLE public.director_tecnico DROP CONSTRAINT IF EXISTS id_club CASCADE;
+ALTER TABLE public.director_tecnico ADD CONSTRAINT id_club FOREIGN KEY (id_club)
+REFERENCES public.club (id_cl) MATCH FULL
+ON DELETE NO ACTION ON UPDATE NO ACTION;
+-- ddl-end --
+
+-- object: id_jugador | type: CONSTRAINT --
+-- ALTER TABLE public.estadisticas_jugador DROP CONSTRAINT IF EXISTS id_jugador CASCADE;
+ALTER TABLE public.estadisticas_jugador ADD CONSTRAINT id_jugador FOREIGN KEY (id_jugador)
+REFERENCES public.jugador (id_j) MATCH FULL
+ON DELETE NO ACTION ON UPDATE NO ACTION;
+-- ddl-end --
+
+-- object: id_club | type: CONSTRAINT --
+-- ALTER TABLE public.uniforme_local DROP CONSTRAINT IF EXISTS id_club CASCADE;
+ALTER TABLE public.uniforme_local ADD CONSTRAINT id_club FOREIGN KEY (id_club)
+REFERENCES public.club (id_cl) MATCH FULL
+ON DELETE NO ACTION ON UPDATE NO ACTION;
+-- ddl-end --
+
+-- object: id_club | type: CONSTRAINT --
+-- ALTER TABLE public.uniforme_visitante DROP CONSTRAINT IF EXISTS id_club CASCADE;
+ALTER TABLE public.uniforme_visitante ADD CONSTRAINT id_club FOREIGN KEY (id_club)
+REFERENCES public.club (id_cl) MATCH FULL
+ON DELETE NO ACTION ON UPDATE NO ACTION;
+-- ddl-end --
+
+-- object: id_club | type: CONSTRAINT --
+-- ALTER TABLE public.contrato_dt DROP CONSTRAINT IF EXISTS id_club CASCADE;
+ALTER TABLE public.contrato_dt ADD CONSTRAINT id_club FOREIGN KEY (id_club)
+REFERENCES public.club (id_cl) MATCH FULL
+ON DELETE NO ACTION ON UPDATE NO ACTION;
+-- ddl-end --
+
+-- object: id_club | type: CONSTRAINT --
+-- ALTER TABLE public.entrenador DROP CONSTRAINT IF EXISTS id_club CASCADE;
+ALTER TABLE public.entrenador ADD CONSTRAINT id_club FOREIGN KEY (id_club)
+REFERENCES public.club (id_cl) MATCH FULL
+ON DELETE NO ACTION ON UPDATE NO ACTION;
+-- ddl-end --
+
+-- object: id_club | type: CONSTRAINT --
+-- ALTER TABLE public.contrato_jugador DROP CONSTRAINT IF EXISTS id_club CASCADE;
+ALTER TABLE public.contrato_jugador ADD CONSTRAINT id_club FOREIGN KEY (id_club)
+REFERENCES public.club (id_cl) MATCH FULL
+ON DELETE NO ACTION ON UPDATE NO ACTION;
+-- ddl-end --
+
+-- object: id_jugador | type: CONSTRAINT --
+-- ALTER TABLE public.contrato_jugador DROP CONSTRAINT IF EXISTS id_jugador CASCADE;
+ALTER TABLE public.contrato_jugador ADD CONSTRAINT id_jugador FOREIGN KEY (id_jugador)
+REFERENCES public.jugador (id_j) MATCH FULL
+ON DELETE NO ACTION ON UPDATE NO ACTION;
+-- ddl-end --
+
+-- object: id_jugador | type: CONSTRAINT --
+-- ALTER TABLE public.equipacion DROP CONSTRAINT IF EXISTS id_jugador CASCADE;
+ALTER TABLE public.equipacion ADD CONSTRAINT id_jugador FOREIGN KEY (id_jugador)
+REFERENCES public.jugador (id_j) MATCH FULL
+ON DELETE NO ACTION ON UPDATE NO ACTION;
+-- ddl-end --
+
+-- object: id_club | type: CONSTRAINT --
+-- ALTER TABLE public.patrocinador DROP CONSTRAINT IF EXISTS id_club CASCADE;
+ALTER TABLE public.patrocinador ADD CONSTRAINT id_club FOREIGN KEY (id_club)
+REFERENCES public.club (id_cl) MATCH FULL
+ON DELETE NO ACTION ON UPDATE NO ACTION;
+-- ddl-end --
+
+-- object: id_club | type: CONSTRAINT --
+-- ALTER TABLE public.patrocinador DROP CONSTRAINT IF EXISTS id_club CASCADE;
+ALTER TABLE public.patrocinador ADD CONSTRAINT id_club FOREIGN KEY (id_club)
+REFERENCES public.club (id_cl) MATCH FULL
+ON DELETE NO ACTION ON UPDATE NO ACTION;
+-- ddl-end --
+
+-- object: id_club | type: CONSTRAINT --
+-- ALTER TABLE public.equipo_medico DROP CONSTRAINT IF EXISTS id_club CASCADE;
+ALTER TABLE public.equipo_medico ADD CONSTRAINT id_club FOREIGN KEY (id_club)
+REFERENCES public.club (id_cl) MATCH FULL
+ON DELETE NO ACTION ON UPDATE NO ACTION;
+-- ddl-end --
+
+-- object: id_club | type: CONSTRAINT --
+-- ALTER TABLE public.equipo_utileria DROP CONSTRAINT IF EXISTS id_club CASCADE;
+ALTER TABLE public.equipo_utileria ADD CONSTRAINT id_club FOREIGN KEY (id_club)
+REFERENCES public.club (id_cl) MATCH FULL
+ON DELETE NO ACTION ON UPDATE NO ACTION;
+-- ddl-end --
+
+-- object: id_dt | type: CONSTRAINT --
+-- ALTER TABLE public.contrato_dt DROP CONSTRAINT IF EXISTS id_dt CASCADE;
+ALTER TABLE public.contrato_dt ADD CONSTRAINT id_dt FOREIGN KEY (id_dt)
+REFERENCES public.director_tecnico (id_dt) MATCH FULL
+ON DELETE NO ACTION ON UPDATE NO ACTION;
+-- ddl-end --
+
+
+
+
+
+
+
+-- object: id_jugador | type: CONSTRAINT --
+-- ALTER TABLE public.titular DROP CONSTRAINT IF EXISTS id_jugador CASCADE;
+ALTER TABLE public.titular ADD CONSTRAINT id_jugador FOREIGN KEY (id_jugador)
+REFERENCES public.jugador (id_j) MATCH FULL
+ON DELETE NO ACTION ON UPDATE NO ACTION;
+-- ddl-end --
+
+-- object: id_jugador | type: CONSTRAINT --
+-- ALTER TABLE public.suplente DROP CONSTRAINT IF EXISTS id_jugador CASCADE;
+ALTER TABLE public.suplente ADD CONSTRAINT id_jugador FOREIGN KEY (id_jugador)
+REFERENCES public.jugador (id_j) MATCH FULL
+ON DELETE NO ACTION ON UPDATE NO ACTION;
+-- ddl-end --
+
+-- object: id_jugadores_iniciales | type: CONSTRAINT --
+-- ALTER TABLE public.alineacion DROP CONSTRAINT IF EXISTS id_jugadores_iniciales CASCADE;
+ALTER TABLE public.alineacion ADD CONSTRAINT id_jugadores_iniciales FOREIGN KEY (id_jugadores_iniciales)
+REFERENCES public.titular (id_t) MATCH FULL
+ON DELETE NO ACTION ON UPDATE NO ACTION;
+-- ddl-end --
+
+-- object: id_jugadores_suplentes | type: CONSTRAINT --
+-- ALTER TABLE public.alineacion DROP CONSTRAINT IF EXISTS id_jugadores_suplentes CASCADE;
+ALTER TABLE public.alineacion ADD CONSTRAINT id_jugadores_suplentes FOREIGN KEY (id_jugadores_suplentes)
+REFERENCES public.suplente (id_s) MATCH FULL
+ON DELETE NO ACTION ON UPDATE NO ACTION;
+-- ddl-end --
+
+-------------------INSERCIONES----------------
+
+copy public.estadio(capacidad,nombre,id_es)
+from 'C:\Users\Laboratorios EICT\Documents\Liga\estadio.csv'
+delimiter ';'
+csv header;
+
+copy public.club(id_cl,nombre,ciudad,presupuesto_en_miles,id_estadio)
+from 'C:\Users\Laboratorios EICT\Documents\Liga\club.csv'
+delimiter ';'
+csv header;
+
+copy public.entrenador(nombre,id_e,area,id_club)
+from 'C:\Users\Laboratorios EICT\Documents\Liga\entrenador.csv'
+delimiter ';'
+csv header;
+
+copy public.jugador(id_j,edad,altura,pie_habil,nacionalidad,nombre,valor_mercado_en_miles,id_club,posicion)
+from 'C:\Users\Laboratorios EICT\Documents\Liga\jugador.csv'
+delimiter ';'
+csv header;
+
+copy public.equipo_medico(id_em,nombre,id_club)
+from 'C:\Users\Laboratorios EICT\Documents\Liga\equipo_medico.csv'
+delimiter ';'
+csv header;
+
+copy public.equipo_utileria(id_eu,nombre,id_club)
+from 'C:\Users\Laboratorios EICT\Documents\Liga\equipo_utileria.csv'
+delimiter ';'
+csv header;
+
+copy public.director_tecnico(id_dt,nacionalidad,fecha_nacimiento,nombre,id_club)
+from 'C:\Users\Laboratorios EICT\Documents\Liga\director_tecnico.csv'
+delimiter ';'
+csv header;
+
+copy public.contrato_dt(id_club,id_dt,fecha_inicial_dt,fecha_final_dt,salario_dt,id_contrato_dt)
+from 'C:\Users\Laboratorios EICT\Documents\Liga\contrato_dt.csv'
+delimiter ';'
+csv header;
+
+
+
+copy public."Estadisticas_club"(id_club,partidos_jugados,victorias,empates,derrotas,goles_a_favor,goles_en_contra,id_estadisticas_club)
+from 'C:\Users\Laboratorios EICT\Documents\Liga\estadisticas_club.csv'
+delimiter ';'
+csv header;
+
+copy public.estadisticas_jugador(id_jugador,partidos_jugados,partidos_en_alineacion,puntos_por_partido,goles,autogoles,entra_sustituto,sustituido,amarillas,doble_amarilla,rojas,goles_concedidos,porterias_a_cero,minutos_jugados,asistencias,id_estadisticas_jugador)
+from 'C:\Users\Laboratorios EICT\Documents\Liga\estadisticas_jugador.csv'
+delimiter ';'
+csv header;
+
+copy public.patrocinador(marca,id_club,id_patrocinador)
+from 'C:\Users\Laboratorios EICT\Documents\Liga\patrocinador.csv'
+delimiter ';'
+csv header;
+
+copy public.uniforme_local(id_lo,color_principal,color_secundario,id_club)
+from 'C:\Users\Laboratorios EICT\Documents\Liga\uniforme_local.csv'
+delimiter ';'
+csv header;
+
+copy public.uniforme_visitante(id_uv,color_principal,color_secundario,id_club)
+from 'C:\Users\Laboratorios EICT\Documents\Liga\uniforme_local.csv'
+delimiter ';'
+csv header;
+
+
+
+--------------creacion de vistas y roles------------------------------------
+
+
+CREATE ROLE digitador_club;
+GRANT CONNECT ON DATABASE ligabetplay TO digitador_club;
+GRANT USAGE ON SCHEMA public TO digitador_club;
+GRANT UPDATE ON TABLE "Estadisticas_club" TO digitador_club;
+
+CREATE ROLE digitador_jugador;
+GRANT CONNECT ON DATABASE ligabetplay TO digitador_jugador;
+GRANT USAGE ON SCHEMA public TO digitador_jugador;
+GRANT UPDATE ON TABLE estadisticas_jugador TO digitador_jugador;
+
+CREATE ROLE digitador_alineacion;
+GRANT CONNECT ON DATABASE ligabetplay TO digitador_alineacion;
+GRANT USAGE ON SCHEMA public TO digitador_alineacion;
+GRANT UPDATE ON TABLE titular, suplente TO digitador_alineacion;
+
+CREATE ROLE transferensista;
+GRANT CONNECT ON DATABASE ligabetplay TO transferensista;
+GRANT USAGE ON SCHEMA public TO transferensista;
+GRANT INSERT, UPDATE, DELETE ON TABLE club,jugador TO transferensista;
+
+
+
+CREATE USER asistente WITH PASSWORD 'secret_passwd';
+GRANT digitador_club TO asistente;
+
+CREATE USER asis WITH PASSWORD 'secret';
+GRANT digitador_jugador TO asis;
+
+CREATE USER alineador WITH PASSWORD 'secret_alinea';
+GRANT digitador_alineacion TO alineador;
+
+CREATE USER encargado WITH PASSWORD 'contraseÃ±a123';
+GRANT transferensista TO encargado;
+
+
+create table change_estadisticas(
+  id SMALLINT not NULL,
+  name VARCHAR(40) not NULL,
+  users VARCHAR(40) not NULL,
+  date TIMESTAMP with time zone
+);
+
+create or replace function insercion_estadisticas()
+	returns trigger
+    LANGUAGE 'plpgsql'
+AS $$
+Begin
+	insert into change_estadisticas(id,name,users,date)
+		values(new.id,new.name,CURRENT_USER,now());
+	return NEW;
+END
+$$
+
+
+
+create trigger registro_estadisticas
+	after update 
+    on estadisticas_jugador
+    for each ROW
+    EXECUTE FUNCTION insercion_estadisticas();
+
+
+----------------vistas y consultas ----------------------
+select *
+from jugador;
+
+create view Goleadores as
+	select nombre, id_jugador, goles
+	from jugador, estadisticas_jugador
+	where jugador.id_j=estadisticas_jugador.id_jugador;
+	
+	
+	
+
+select nombre, goles, rank() over(order by goles desc) as goles_rank
+from Goleadores;
+
+create view Asistidores as
+	select nombre, id_jugador, asistencias
+	from jugador, estadisticas_jugador
+	where jugador.id_j=estadisticas_jugador.id_jugador;
+
+
+select nombre, asistencias, rank() over(order by asistencias desc) as asistencias_rank
+from Asistidores;
+
+select nombre, color_principal, color_secundario
+from club inner join uniforme_local on club.id_cl = uniforme_local.id_club;
+
+create view Directores_Tecnicos_Presupuesto as 
+	select D.nombre, D.nacionalidad, C.presupuesto_en_miles
+	from director_tecnico as D inner join club as C on D.id_club=C.id_cl;
+	
+select nombre, presupuesto_en_miles, rank() over(order by presupuesto_en_miles desc) as dt_presupuesto_rank
+from Directores_Tecnicos_Presupuesto;
+
+
+
+
+
+
