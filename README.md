@@ -1,6 +1,27 @@
 # Liga_de_futbol
 Base de datos de una liga de fútbol
 
+
+**¿Comó ejecutar el codigo?**
+
+Paso 1.
+Depurar unicamente la zona de los create y alter table del DDL hasta donde esta debidamente indicado dentro de la base.
+
+Paso 2.
+Depurar la zona de inserciones del DDL que esta debidamente indicada, preferiblemente archivo por archivo para mayor eficiencia.
+
+Paso 3. 
+Depurar la zona de los roles, corriendo uno por uno para mejor entendimiento.
+
+Paso 4.
+Depurar la seccion de las vistas, de las cuales podran salir consultas valiosas.
+
+Paso 5.
+Depurar el trigger paso a paso, corriendo primero la tabla, en segundo la funcion y por ultimo el trigger.
+
+Paso 6. 
+Ya podra realizar las consultas que desee, y tendra unos ejemplos en la parte final.
+
 **Problemática**
 
 Esta propuesta busca facilitar la búsqueda de información por parte de los usuarios que necesiten o quieran por su propia cuenta, obtener datos acerca de su liga de preferencia. Hoy en día hay muchos usuarios dentro del mundo del futbol que quisieran obtener una gran cantidad de datos para realizar un buen análisis sobre su equipo o sobre algún jugador, ya sea solo para adquirir conocimiento o para algún otro tema que incluya un objetivo monetario para esta persona, como lo es el mundo de las apuestas, o también si se necesitan sacar datos para los mismos funcionarios del club para manejar el tema de las finanzas e igualmente para los funcionarios de las propias ligas. En cuanto al mundo de las apuestas, existen muchas personas que basan su economía en esta actividad, ya sea por parte de las casas de apuestas como también de sus usuarios, el hecho de tener una base de datos que contenga cada estadística del club y sus jugadores permitirá una mejor predicción y facilitara el hecho de sacar un indicador de multiplicación para las apuestas de cada partido.
